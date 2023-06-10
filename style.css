@@ -1,16 +1,16 @@
 body{
-    margin: 0px;
-    padding: 0px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     overflow-x: hidden;
+    width: 100%;
+    font-size: xx-large;
 }
 header{
     width: 100%;
     height: 75px;
     display: flex;
     justify-content: space-between;
-    font-size:medium;
+    font-size:l;
     box-shadow: 5px 5px 5px #888888;
     overflow: hidden;
 }
@@ -179,3 +179,13 @@ footer{
     background-color:darkorange;
     height: 100px;
 }
+
+.patti {
+    height: 500px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
